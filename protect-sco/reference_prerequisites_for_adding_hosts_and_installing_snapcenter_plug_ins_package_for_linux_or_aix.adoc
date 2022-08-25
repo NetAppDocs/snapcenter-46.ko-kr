@@ -308,7 +308,7 @@ SnapCenter는 자격 증명을 사용하여 SnapCenter 작업을 위해 사용�
 
 이 자격 증명은 루트 사용자 또는 sudo 권한이 있는 비루트 사용자에 대해 생성되어 플러그인 프로세스를 설치 및 시작할 수 있습니다.
 
-자세한 내용은 다음을 참조하십시오. <<Configure sudo privileges for non-root users for Linux host>> 또는 <<Configure sudo privileges for non-root users for AIX host>>
+자세한 내용은 다음을 참조하십시오.  sudo privileges for non-root users for Linux host 또는  sudo privileges for non-root users for AIX host
 
 |===
 
