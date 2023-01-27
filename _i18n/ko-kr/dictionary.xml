@@ -589,7 +589,6 @@
   <block id="92cc2a9a2d5824e9c2b490a8fb082801" category="paragraph">SnapCenter에서 자동으로 삭제하기 전에 자동으로 저장되는 스냅샷 복사본의 수를 지정하려면 이 옵션을 선택합니다.</block>
   <block id="0a3cfeac0775871baedb24392bc4423c" category="paragraph">다음보다 오래된 스냅샷 복사본을 삭제합니다</block>
   <block id="9fbc3fb0ee9d4d329dbc0f3053b7b871" category="paragraph">SnapCenter에서 백업 복사본을 삭제하기 전에 보존할 일 수를 지정하려면 이 옵션을 선택합니다.</block>
-  <block id="e19ad44a5949f6c604b843ea60587e80" category="admonition">SnapVault 복제를 사용하도록 설정하려는 경우 보존 수를 2 이상으로 설정해야 합니다. 복제 수를 1로 설정하면 보존 작업이 실패할 수 있습니다. 그 이유는 첫 번째 스냅샷 복사본이 SnapVault 관계에 대한 참조 스냅샷 복사본으로, 새로운 스냅샷 복사본이 타겟으로 복제되기 때문입니다.</block>
   <block id="225ea283dca2590a2a542a782ac56927" category="admonition">최대 보존 값은 ONTAP 9.4 이상의 리소스에 대해 1018이고, ONTAP 9.3 이전 버전의 리소스에 대해서는 254입니다. 보존이 기본 ONTAP 버전에서 지원하는 값보다 높은 값으로 설정된 경우 백업이 실패합니다.</block>
   <block id="91c72a64980863f26bec585770f3d671" category="list-text">복제 페이지에서 보조 스토리지 시스템에 대한 복제를 지정합니다.</block>
   <block id="1841ccf0461e2eaacdadd6d0965185ca" category="paragraph">로컬 스냅샷 복사본을 생성한 후 SnapMirror를 업데이트합니다</block>
@@ -7795,4 +7794,5 @@
   <block id="14952648adc190dcb5a5245293d5f196" category="list-text"><block ref="5eae2e4676c03cd5a87d91855e383655" prefix="" category="inline-code"></block></block>
   <block id="4574736625a206c36aa88ccb73fced3e" category="list-text"><block ref="9968070f531307f6dc7d65233ad2073f" prefix="" category="inline-code"></block></block>
   <block id="0d51371cbb850772d2130a36f4368df4" category="paragraph">MetroCluster 쇼</block>
+  <block id="cab00f169fcfeb601710dd89ecbfedf0" category="admonition">보존 카운트를 2 이상으로 설정해야 합니다. 보존 카운트의 최소값은 2입니다.</block>
 </blocks>
