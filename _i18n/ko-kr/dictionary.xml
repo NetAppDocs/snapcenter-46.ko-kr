@@ -4442,8 +4442,6 @@
   <block id="35602ea96136092b8b885fe1ef749873" category="list-text">끝점, 식별자 및 서명 필드가 채워져 있는지 확인합니다.</block>
   <block id="907fe6bfcd498fe3e561f7fb3ee67c89" category="paragraph">SnapCenter MFA 기능은 REST API를 사용하여 활성화할 수도 있습니다.</block>
   <block id="1958e9c22cb352dba19d476e05b4a53b" category="paragraph">SnapCenter에서 MFA 설정을 활성화, 업데이트 또는 비활성화한 후 모든 브라우저 탭을 닫고 브라우저를 다시 열어 다시 로그인하십시오. 기존 또는 활성 세션 쿠키가 지워집니다.</block>
-  <block id="442ed19a31ac1f651ba7bf07effe122c" category="inline-link-macro">여러 탭의 SnapCenter 로그인에 MFA 오류가 표시됩니다</block>
-  <block id="b07f8a55d09983494694fca31fee6b35" category="paragraph">문제 해결 정보는 을 참조하십시오 <block ref="46642a8ad62fd1a061e94d6b7bf62dc5" category="inline-link-macro-rx"></block></block>
   <block id="aeb89440d41f10fd9cc43ab75d800138" category="section-title">AD FS MFA 메타데이터를 업데이트합니다</block>
   <block id="19b3ff63dd3f3b6c1e3e48e8b3be6141" category="paragraph">AD FS 서버에 업그레이드, CA 인증서 갱신, DR 등과 같은 수정 사항이 있을 때마다 SnapCenter에서 AD FS MFA 메타데이터를 업데이트해야 합니다.</block>
   <block id="2a18eff05051b9c720a786193ade4742" category="list-text">다운로드한 파일을 SnapCenter 서버에 복사하여 MFA 구성을 업데이트합니다.</block>
@@ -7801,4 +7799,6 @@
   <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">IBM Java는 지원되지 않습니다.</block>
   <block id="46d55a8aefdec15a8ce44087c8123826" category="inline-link">LUN에 대한 디바이스를 검색할 수 없어 작업이 실패합니다</block>
   <block id="24642a08e354f43168ca4f1178850f84" category="list-text">혼합 프로토콜 iSCSI 및 FC로 구성된 iGroup을 사용하여 LUN이 AIX 호스트에 매핑되지 않았는지 확인해야 합니다. 자세한 내용은 을 참조하십시오<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>.</block>
+  <block id="e4d919fee3d32117fafed951c3cdbfe5" category="inline-link">여러 탭의 SnapCenter 로그인에 MFA 오류가 표시됩니다</block>
+  <block id="3954e6d000a63f90d0486b1a391b0efd" category="paragraph">문제 해결 정보는 을 참조하십시오<block ref="75a1f4f9379e192498c16a8577967f33" category="inline-link-rx"></block></block>
 </blocks>
