@@ -3266,12 +3266,7 @@
   <block id="5cfa1ed5b7279fa5a9a9f892a69f175f" category="list-text">Oracle 데이터베이스용 SnapCenter 플러그인을 대체 호스트에 설치해야 합니다.</block>
   <block id="b1815397269c524f0557a5562899d82b" category="list-text">클론 호스트는 운영 스토리지 또는 보조 스토리지에서 LUN을 검색할 수 있어야 합니다.</block>
   <block id="2d4350dba1907fc52580a8f201e6340e" category="list-text">운영 스토리지 또는 보조(볼트 또는 미러) 스토리지에서 대체 호스트로 클론을 생성하는 경우 iSCSI 세션이 보조 스토리지와 대체 호스트 간에 설정되거나 FC에 대해 적절하게 조닝(Zoning)되었는지 확인합니다.</block>
-  <block id="3e30bf9ff6c5058456cc15f4812939ca" category="inline-link">Linux 호스트 유틸리티 설치 및 설정 안내서</block>
-  <block id="a13c407c281871b27c7c646287cfb88e" category="list-text"><block ref="a13c407c281871b27c7c646287cfb88e" category="inline-link-rx"></block></block>
-  <block id="99d5e9e8be050afa5c8c0151d7a00740" category="inline-link">AIX 호스트 유틸리티 설치 및 설정 안내서</block>
-  <block id="cc1ac40238dd772ed5975e72e877a936" category="list-text"><block ref="cc1ac40238dd772ed5975e72e877a936" category="inline-link-rx"></block></block>
   <block id="7ab56a931702e0e68323bba5f9744b17" category="list-text">Vault 또는 Mirror 스토리지에서 동일한 호스트로 클론을 생성하는 경우, iSCSI 세션이 Vault 또는 Mirror 스토리지와 호스트 간에 설정되어 있는지 또는 FC에 맞게 조닝(zoning)되어 있는지 확인합니다.</block>
-  <block id="0bfae4ea7762d7ebae116652014f4cd5" category="list-text">가상화 환경에서 클론을 생성하는 경우 iSCSI 세션이 운영 스토리지 또는 보조 스토리지와 대체 호스트를 호스팅하는 ESX 서버 간에 설정되어 있는지 또는 FC에 대해 적절하게 조닝(zoning)되어 있는지 확인합니다.</block>
   <block id="b6002df6af7fac27dc362f546398ad42" category="list-text">소스 데이터베이스가 ASM 데이터베이스인 경우:</block>
   <block id="201c11864b685f8dcf2d90b5b22cd818" category="list-text">ASM 인스턴스는 클론이 수행될 호스트에서 실행 중이어야 합니다.</block>
   <block id="9154cf1449b0c872a99006c07487631d" category="list-text">클론 데이터베이스의 아카이브 로그 파일을 전용 ASM 디스크 그룹에 배치하려면 클론 작업 전에 ASM 디스크 그룹을 프로비저닝해야 합니다.</block>
@@ -4663,7 +4658,6 @@
   <block id="91ca015b30de2a05aff2f16ec93231dd" category="paragraph">MySQL 포트</block>
   <block id="ced7e40a06bd114bdd410398e025c7bd" category="paragraph">3306(HTTPS), 양방향</block>
   <block id="efe50212c612e0d762535b54fd67befd" category="paragraph">이 포트는 SnapCenter 및 MySQL 리포지토리 데이터베이스 간의 통신에 사용됩니다.</block>
-  <block id="2fd902191e98265318221699b71a7bbc" category="paragraph">SnapCenter 서버에서 MySQL 서버로 보안 연결을 생성할 수 있습니다. <block ref="98294cf010405bdb856636ffa91b07b6" category="inline-link-macro-rx"></block></block>
   <block id="4abc501abe98e95144eba2c4d17174ad" category="paragraph">Windows 플러그인 호스트</block>
   <block id="0d1c7f3b029cde2163a99c08de7fc3c3" category="paragraph">135, 445(TCP)</block>
   <block id="9ce593479d7ce75e23fe1f85463ed78d" category="paragraph">135번 및 445번 포트 외에도 Microsoft에서 지정한 동적 포트 범위도 열려 있어야 합니다. 원격 설치 작업은 이 포트 범위를 동적으로 검색하는 WMI(Windows Management Instrumentation) 서비스를 사용합니다.</block>
@@ -4685,14 +4679,12 @@
   <block id="48552dce4d9810446c70f66f21f08120" category="paragraph">ONTAP 클러스터 또는 SVM 통신 포트</block>
   <block id="0e2baf6e148be111338e84354edd4364" category="paragraph">443(HTTPS), 양방향 80(HTTP), 양방향</block>
   <block id="a26bff28c23606c7396b4619af8af1bd" category="paragraph">이 포트는 SnapCenter Server를 실행하는 호스트와 SVM 간 통신에 SAL(Storage Abstraction Layer)에서 사용됩니다. 이 포트는 현재 SnapCenter 플러그인 호스트와 SVM 간 통신에 SnapCenter의 SAL에서 사용됩니다.</block>
-  <block id="657328b06bb4725d5cf327593551d8d6" category="paragraph">SAP HANA 데이터베이스 포트용 SnapCenter 플러그인</block>
   <block id="a703a5f03b1b230925e5a7bef766ea84" category="paragraph">3instance_number13 또는 3instance_number15, HTTP 또는 HTTPS, 양방향 및 사용자 지정 가능</block>
   <block id="5afe34fece774db451a111901841c2f9" category="paragraph">MDC(멀티테넌트 데이터베이스 컨테이너) 단일 테넌트의 경우 포트 번호는 13으로 끝나며 MDC가 아닌 경우 포트 번호는 15로 끝납니다.</block>
   <block id="f79f66ef0d80eeeac5a8a3b2f86e2d84" category="paragraph">예를 들어, 32013은 인스턴스 20의 포트 번호이고 31015는 인스턴스 10의 포트 번호입니다.</block>
   <block id="16e7597f6d1a1595520060010a775409" category="paragraph">도메인 컨트롤러 통신 포트입니다</block>
   <block id="fa51be75ce838b88fdd3475b507591a3" category="paragraph">인증이 제대로 작동하기 위해 도메인 컨트롤러의 방화벽에서 열어야 하는 포트를 확인하려면 Microsoft 설명서를 참조하십시오.</block>
   <block id="c659718bc9e53e4da63cb36d6025798c" category="paragraph">SnapCenter 서버, 플러그인 호스트 또는 다른 Windows 클라이언트가 사용자를 인증할 수 있도록 도메인 컨트롤러에서 Microsoft 필수 포트를 열어야 합니다.</block>
-  <block id="8bd83f1f314ef9e02c70e66cc9fb845c" category="paragraph">포트 세부 정보를 수정하려면 을 참조하십시오<block ref="50723147440c13da7c31ceaceb52ba16" category="inline-link-rx"></block> [플러그인 호스트 수정^].</block>
   <block id="f8a549c5d60e74034419845623f5c51a" category="summary">SnapCenter 표준 용량 라이센스를 사용하여 ONTAP Select 및 Cloud Volumes ONTAP 플랫폼의 데이터를 보호할 수 있습니다.</block>
   <block id="247c902b5f932e2e47b98b966ab41a08" category="doc">SnapCenter 표준 용량 기반 라이센스 추가</block>
   <block id="a6f6b8e1900f201c352d37d7ad4eee46" category="paragraph">라이센스의 특징은 다음과 같습니다.</block>
@@ -4853,9 +4845,6 @@
   <block id="d0487d3c65933c7dda38325ae975026b" category="paragraph">하나 이상의 SnapCenter 라이센스를 설치해야 합니다. 라이센스를 추가하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="0ca3149bbd09cc6482f3e5921aad891d" category="inline-link-macro-rx"></block> 또는 <block ref="daae28e1483ad0a51ebe8ba1b52cdeb5" category="inline-link-macro-rx"></block>.</block>
   <block id="59746a4c33021bdc9cb716ea91eadbb0" category="section-title">SMBR(Single Mailbox Recovery) 라이센스</block>
   <block id="8119a3fca1d141f0d7a8e7156604c296" category="paragraph">Exchange용 SnapCenter 플러그인을 사용하여 Microsoft Exchange Server 데이터베이스 및 SMBR(Single Mailbox Recovery)을 관리하는 경우 사용자 메일박스를 기준으로 별도로 구입해야 하는 SMBR용 추가 라이센스가 필요합니다.</block>
-  <block id="0d5e6d352f8f3217e51e0df5fe981349" category="inline-link">SMBR 릴리스 노트</block>
-  <block id="3305eb9373205972a06c6092007cad70" category="paragraph">1000, 5000, 15000 및 25000 사서함 번들 단위로 제공되는 SMBR 라이센스를 구입하려면 NetApp 세일즈 담당자에게 문의하십시오. SKU를 구입한 후에는 의 지침에 따라 라이센스를 얻을 수 있습니다<block ref="26f9ebf6b2beedaef61522277c7c5b3d" category="inline-link-rx"></block>.</block>
-  <block id="e641334b8b39e850790bd4b25b2e3cec" category="paragraph">라이센스 키 요청을 제출하면 Kroll Ontrack이 50개의 메일박스 라이센스 키를 발급합니다. 귀하의 소유 권한에 따라 Kroll Ontrack은 확인 후 사서함의 라이센스를 업그레이드합니다.</block>
   <block id="554b18f954019b477e2e91a5765d0334" category="summary">기존 SnapCenter 역할을 사용하는 것 외에도 고유한 역할을 만들고 사용 권한을 사용자 지정할 수 있습니다.</block>
   <block id="57cf47fd5cdb4fa24f625917dbf7b4cb" category="doc">역할을 생성합니다</block>
   <block id="736f3871653c42d5fc23c7b63472291d" category="paragraph">"SnapCenterAdmin" 역할로 로그인해야 합니다.</block>
@@ -6127,7 +6116,6 @@
   <block id="6728b4a43abbebd3cc07a2cacc5e0c06" category="paragraph">호스트를 추가하는 사용자는 호스트에 대한 관리 권한이 있어야 합니다.</block>
   <block id="83aeb7b594481ad598eb0b519836777b" category="summary">SnapCenter는 물리적 시스템과 가상 머신 모두에서 다양한 스토리지 유형을 지원합니다. SnapCenter 사용자 지정 플러그인을 설치하기 전에 스토리지 유형에 대한 지원을 확인해야 합니다.</block>
   <block id="c48a2f5430d3aff55420b834363bcc46" category="doc">SnapCenter 사용자 지정 플러그인에서 지원하는 스토리지 유형입니다</block>
-  <block id="6da41a50505a00272cd3a44cfd33c736" category="paragraph">물리적 서버 및 가상 서버(VMDK 및 RDM LUN은 지원되지 않음)</block>
   <block id="e1c05a94a3712659051eb07eafa04bd4" category="paragraph">Java 1.8(64비트) Oracle Java 또는 OpenJDK Flavors</block>
   <block id="b3ffee37db8c555449d0068b62ebb22f" category="paragraph">지원되는 버전에 대한 최신 정보는 를 참조하십시오<block ref="1b419d76cc3163a36d36ff494ed65b44" category="inline-link-rx"></block></block>
   <block id="8c1af9a95c5ff9086ee5697a78397ae5" category="summary">SnapCenter 서버를 사용하면 SnapCenter에 대한 플러그인으로 응용 프로그램을 배포 및 관리할 수 있습니다.</block>
@@ -6675,7 +6663,6 @@
   <block id="c41e777bd921bd5fc9079273c0ed35db" category="doc">Microsoft Exchange Server용 SnapCenter 플러그인 개요</block>
   <block id="e126a0dff251b10008436e2bf2a5dd06" category="paragraph">Microsoft Exchange Server용 SnapCenter 플러그인은 Exchange 데이터베이스의 애플리케이션 인식 데이터 보호 관리를 지원하는 NetApp SnapCenter 소프트웨어의 호스트 측 구성 요소입니다. Exchange용 플러그인은 SnapCenter 환경에서 Exchange 데이터베이스의 백업 및 복원을 자동화합니다.</block>
   <block id="94bf62b5661b3bf71e7b277fd3572bb1" category="paragraph">Exchange용 플러그인을 설치하면 SnapCenter와 NetApp SnapMirror 기술을 함께 사용하여 다른 볼륨에 백업 세트의 미러링 복사본을 만들고 NetApp SnapVault 기술을 사용하여 표준 준수 또는 아카이브용으로 D2D 백업 복제를 수행할 수 있습니다.</block>
-  <block id="7af37c4476756504b6f4b3b595f4e558" category="paragraph">전체 Exchange 데이터베이스 대신 메일 또는 편지함을 복원 및 복구하려면 SMBR(Single Mailbox Recovery) 소프트웨어를 사용하십시오.</block>
   <block id="ec053c308e147d0958e28a0ea54218e5" category="summary">복제본이 손상된 경우와 같이 복제본을 재시딩해야 하는 경우 SnapCenter의 재시딩된 기능을 사용하여 최신 백업으로 재시딩할 수 있습니다.</block>
   <block id="aabc88376ed488867dcbd5ebe7ee5f24" category="doc">패시브 Exchange 노드 복제본을 다시 시딩했습니다</block>
   <block id="95ae09e6950aff657a0ec2b6e13f37f0" category="list-text">SnapCenter Server 4.1 이상을 사용하고 Exchange 4.1 이상을 위한 플러그인을 사용해야 합니다.</block>
@@ -6846,10 +6833,6 @@
   <block id="2807319f8bd59affef72f0158525b495" category="doc">메일 및 편지함의 세밀한 복구</block>
   <block id="504c76abf7209921081fe0b281166c22" category="inline-link">SMBR 관리 가이드</block>
   <block id="21816c8bcee290d4ecb4e3f7274ead69" category="paragraph">전체 데이터베이스를 복원하여 단일 메일을 복구하면 많은 시간과 리소스가 소모됩니다. SMBR은 스냅샷의 클론 복제본을 생성한 다음 Microsoft API를 사용하여 SMBR에 메일박스를 마운트하여 메일을 빠르게 복구하는 데 도움이 됩니다. SMBR 사용 방법에 대한 자세한 내용은 을 참조하십시오<block ref="ec4bbb4517dd2ded0cc504f8d58977d4" category="inline-link-rx"></block>.</block>
-  <block id="7028749c09c12f8bb923863ce2b0cebe" category="inline-link-macro">SMBR 라이센스</block>
-  <block id="e2452ab679d04cfb5a81dfcf28af1c7d" category="list-text"><block ref="e2452ab679d04cfb5a81dfcf28af1c7d" category="inline-link-macro-rx"></block></block>
-  <block id="439c7150753e853ca177cd0e1ef12492" category="inline-link">SMBR 설명서 라이브러리</block>
-  <block id="a586bd7e9166c5253992bcdf4d8b115e" category="list-text"><block ref="a586bd7e9166c5253992bcdf4d8b115e" category="inline-link-rx"></block></block>
   <block id="f367d650e57088caf7b808e01235016d" category="inline-link">SnapCenter를 사용하여 SMBR의 보조 스토리지에서 복원하는 방법</block>
   <block id="41b4c689a8b0e3ba8bfecb2a1e608e46" category="list-text"><block ref="41b4c689a8b0e3ba8bfecb2a1e608e46" category="inline-link-rx"></block></block>
   <block id="f004280f6db6ea5f9302c9851388d751" category="inline-link">SMBR을 사용하여 SnapVault에서 Microsoft Exchange Mail 복구</block>
@@ -7706,7 +7689,6 @@
   <block id="832ab315e74cc6d95c21009b0c52cb2b" category="sidebar">명령 참조 가이드</block>
   <block id="cd04e5d32cbb18b14141238ca9a7ea20" category="sidebar">이전 버전의 SnapCenter에 대한 문서</block>
   <block id="66bdd10c104f52b4f8519b652bc8e084" category="sidebar">NetApp 기술 자료 - SnapCenter</block>
-  <block id="bbbbcb8f41827abddd8ec6151fdf9e99" category="sidebar">SnapCenter 소프트웨어</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">개념</block>
   <block id="c16c43065a548034a76faadb18015c27" category="sidebar">SnapCenter 역할 기반 액세스 제어(RBAC)</block>
   <block id="fdcd3d6f45be97e0e24b4e793a81fac0" category="sidebar">SnapCenter 서버 및 플러그인 업그레이드</block>
@@ -7799,6 +7781,29 @@
   <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">IBM Java는 지원되지 않습니다.</block>
   <block id="46d55a8aefdec15a8ce44087c8123826" category="inline-link">LUN에 대한 디바이스를 검색할 수 없어 작업이 실패합니다</block>
   <block id="24642a08e354f43168ca4f1178850f84" category="list-text">혼합 프로토콜 iSCSI 및 FC로 구성된 iGroup을 사용하여 LUN이 AIX 호스트에 매핑되지 않았는지 확인해야 합니다. 자세한 내용은 을 참조하십시오<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>.</block>
-  <block id="e4d919fee3d32117fafed951c3cdbfe5" category="inline-link">여러 탭의 SnapCenter 로그인에 MFA 오류가 표시됩니다</block>
-  <block id="3954e6d000a63f90d0486b1a391b0efd" category="paragraph">문제 해결 정보는 을 참조하십시오<block ref="75a1f4f9379e192498c16a8577967f33" category="inline-link-rx"></block></block>
+  <block id="d21fbb2a5ce79a2a4ef0780b73023b2e" category="paragraph">VM 호스트의 물리적 마운트 및 NFS 직접 마운트(VMDK 및 RDM LUN은 지원되지 않음)</block>
+  <block id="f2688d5a483bee7fcbd80a4e666fc088" category="inline-link">호스트 유틸리티 설명서</block>
+  <block id="cb6e98b3e61b9a1d942fec6f408e43bb" category="list-text">가상화 환경에서 클론을 생성하는 경우 iSCSI 세션이 운영 스토리지 또는 보조 스토리지와 대체 호스트를 호스팅하는 ESX 서버 간에 설정되어 있는지 또는 FC에 대해 적절하게 조닝(zoning)되어 있는지 확인합니다.
+ 를 누릅니다
+자세한 내용은 을 참조하십시오<block ref="ab48d7186c8a78dfaf0e19af923f0daf" category="inline-link-rx"></block>.</block>
+  <block id="c90d9871b4b86a10a62cd2bf2c1ea688" category="inline-link">설치 마법사를 사용하여 SnapCenter 서버를 설치합니다.</block>
+  <block id="1d72d65109e6906ab81717720199491b" category="paragraph">포트를 사용자 정의하려면 를 참조하십시오<block ref="724cb62a2271057d0541cdb8153d9260" category="inline-link-rx"></block></block>
+  <block id="13aef2b62d8736d22562e85c99ca60eb" category="paragraph">SnapCenter 서버에서 MySQL 서버로 보안 연결을 생성할 수 있습니다. <block ref="cd7568118ad87382648cb2133a315ffd" category="inline-link-macro-rx"></block></block>
+  <block id="60f072866c2d325a151d990670aa5b4c" category="inline-link">호스트를 추가하고 Linux 또는 AIX용 SnapCenter 플러그인 패키지를 설치합니다.</block>
+  <block id="ac01fd33e160c622162b42b1f7e4fe18" category="paragraph">포트를 사용자 정의하려면 를 참조하십시오<block ref="32882cfc4755cb17eefc59506f087a6f" category="inline-link-rx"></block> 또는<block ref="477bb7222f583d223b46c2b591c18bd9" category="inline-link-rx"></block></block>
+  <block id="97e62e758724ab080cbfe2799c388822" category="paragraph">포트를 사용자 정의하려면 를 참조하십시오<block ref="477bb7222f583d223b46c2b591c18bd9" category="inline-link-rx"></block></block>
+  <block id="6529e3cc72b3980f54f2d2ad982c79c2" category="paragraph">SAP HANA 데이터베이스 vCode용 SnapCenter 플러그인 맞춤법 검사기</block>
+  <block id="fa9e479c30699c2d65f7d1107b28b62a" category="paragraph">포트를 사용자 정의하려면 를 참조하십시오<block ref="6bb20f223531bd59e001c776ffe35812" category="inline-link-rx"></block></block>
+  <block id="0cfe29479bcdd52d04233cb07867b8dc" category="paragraph">포트 세부 정보를 수정하려면 을 참조하십시오 <block ref="e76f469a4971f2c04dd83de4f8464750" category="inline-link-macro-rx"></block>.</block>
+  <block id="8db273592868b7d940261fe8347b32b4" category="inline-link-macro">CPC-00507</block>
+  <block id="802a2285a60e079b52f32ba2c3140d0d" category="paragraph">NetApp ® Single Mailbox Recovery는 2023년 5월 12일 EOA(End of Availability)로 제공됩니다. 자세한 내용은 을 참조하십시오 <block ref="5a98ce97c5b40ecef6f220dc57d4f14a" category="inline-link-macro-rx"></block>. NetApp은 2020년 6월 24일에 출시된 마케팅 부품 번호를 통해 지원 자격 기간 동안 메일박스 용량, 유지보수, 지원을 구매한 고객을 계속 지원할 예정입니다.</block>
+  <block id="03da3b5726a1efd6df1fc511966c89a6" category="paragraph">NetApp Single Mailbox Recovery는 Ontrack에서 제공하는 파트너 제품입니다. OnTrack PowerControls는 NetApp Single Mailbox Recovery와 유사한 기능을 제공합니다. 고객은 2023년 5월 12일 EOA 날짜 이후에 세분화된 메일박스 복구를 위해 Ontrack(licensingteam@ontrack.com 통해 Ontrack PowerControls 소프트웨어 라이센스와 Ontrack PowerControls 유지 관리 및 지원 갱신을 조달할 수 있습니다.</block>
+  <block id="b73f485c1067e4b3168b292142131855" category="inline-link">여러 탭에서 동시 로그인 시도 시 MFA 오류가 표시됩니다</block>
+  <block id="9e4f9470d66f1730ad7525f9043126be" category="paragraph">문제 해결에 대한 자세한 내용은 을 참조하십시오<block ref="361c774ee5cb22be42ef8ea152ed45ad" category="inline-link-rx"></block>.</block>
+  <block id="245360450ea9845b00af24cc4009b53f" category="paragraph">전체 Exchange 데이터베이스 대신 메일 또는 편지함을 복원 및 복구하려면 SMBR(Single Mailbox Recovery) 소프트웨어를 사용하십시오.
+NetApp ® Single Mailbox Recovery는 2023년 5월 12일 EOA(End of Availability)로 제공됩니다. NetApp은 2020년 6월 24일에 출시된 마케팅 부품 번호를 통해 지원 자격 기간 동안 메일박스 용량, 유지보수, 지원을 구매한 고객을 계속 지원할 예정입니다.</block>
+  <block id="01a1924558b81160b570c09fe8a4203c" category="paragraph">NetApp Single Mailbox Recovery는 Ontrack에서 제공하는 파트너 제품입니다. OnTrack PowerControls는 NetApp Single Mailbox Recovery와 유사한 기능을 제공합니다. 고객은 세분화된 메일박스 복구를 위해 Ontrack PowerControls 소프트웨어 라이센스와 Ontrack PowerControls 유지보수 및 지원 갱신을 licensingteam@ontrack.com 통해 구매할 수 있습니다.</block>
+  <block id="07c049db30ed73f0d52cca0a50220fcd" category="paragraph">SMBR에 대한 자세한 내용은 다음을 참조하십시오.</block>
+  <block id="81845e1ca99f532dc90bd83c62202fc0" category="inline-link">SMBR(Ontrack Power Control 복원에도 적용 가능)을 사용하여 단일 항목을 수동으로 복원하는 방법</block>
+  <block id="db0c2525f5f13ece537a8604a4046d7c" category="list-text"><block ref="db0c2525f5f13ece537a8604a4046d7c" category="inline-link-rx"></block></block>
 </blocks>
