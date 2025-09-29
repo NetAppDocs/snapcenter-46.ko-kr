@@ -34,7 +34,6 @@
   <block id="5c4de78a2b621074bf68ab1c644af297" category="inline-link-macro">CA 인증서 CSR 파일을 생성합니다</block>
   <block id="0ff4fbc942cecadf8b215fa3272db57a" category="paragraph">SnapCenter 서버 및 해당 플러그인을 설치한 후 CA 인증서를 배포해야 합니다. 자세한 내용은 을 참조하십시오 <block ref="de78619abe7dcb7b53be3c4ab98b1283" category="inline-link-macro-rx"></block>.</block>
   <block id="8fbcd736aac5b9c6baba8f4db349f50e" category="inline-link">인증서를 만들고 가져옵니다</block>
-  <block id="c0ddbdc2a9782e98d40c313e95e09705" category="paragraph">VMware vSphere용 SnapCenter 플러그인용 CA 인증서를 구축할 수도 있습니다. 자세한 내용은 을 참조하십시오<block ref="f5f72b20763af718f23ba7b5cc6b11fa" category="inline-link-rx"></block>.</block>
   <block id="2dccbe897666a5dff6976fa3fd6bab8f" category="summary">SnapCenter RBAC(역할 기반 액세스 제어)를 사용하여 역할을 만들고 해당 역할에 권한을 추가한 다음 사용자나 사용자 그룹을 역할에 할당할 수 있습니다. 따라서 SnapCenter 관리자는 중앙에서 관리되는 환경을 만들 수 있고, 애플리케이션 관리자는 데이터 보호 작업을 관리할 수 있습니다. SnapCenter에는 몇 가지 미리 정의된 역할 및 권한이 제공됩니다.</block>
   <block id="45538cf22616d249e70f0697a94497d7" category="doc">RBAC 권한 및 역할</block>
   <block id="e2bd415c54b23599a45de668297fed62" category="paragraph">SnapCenter RBAC(역할 기반 액세스 제어)를 사용하여 역할을 만들고 해당 역할에 권한을 할당한 다음 사용자 또는 사용자 그룹을 역할에 할당할 수 있습니다. 따라서 SnapCenter 관리자는 중앙에서 관리되는 환경을 만들 수 있고, 애플리케이션 관리자는 데이터 보호 작업을 관리할 수 있습니다. SnapCenter에는 몇 가지 미리 정의된 역할 및 권한이 제공됩니다.</block>
@@ -210,7 +209,6 @@
   <block id="f131ab7559cf49d32373fdff9b7cbaaa" category="admonition">UNIX용 SnapCenter 플러그인은 독립 실행형 플러그인이 아니며 독립적으로 설치할 수 없습니다. 이 플러그인은 Oracle 데이터베이스용 SnapCenter 플러그인을 설치하면 자동으로 설치됩니다.</block>
   <block id="ad41f7a9e85843a998743e132424a395" category="list-text">SnapCenter 맞춤형 플러그인</block>
   <block id="b6ddf325474f53377de3e17f65c983f3" category="inline-link">NetApp 스토리지 자동화 스토어</block>
-  <block id="4d85577b7a29bc5d237d7c7beb5ebc7c" category="paragraph">사용자 지정 플러그인은 커뮤니티에서 지원되며 에서 다운로드할 수 있습니다<block ref="14adb94a4faec9ea0e0992d90e98b640" category="inline-link-rx"></block>.</block>
   <block id="4bfa416280fc4f5037348c904859e18f" category="paragraph">SnapCenter Plug-in for VMware vSphere(이전의 NetApp Data Broker)는 가상화된 데이터베이스 및 파일 시스템에서 SnapCenter 데이터 보호 작업을 지원하는 독립 실행형 가상 어플라이언스입니다.</block>
   <block id="2aa0571a478e7d0fecaba7f94c88bf25" category="section-title">SnapCenter 서버</block>
   <block id="e4b70dc0a2377b7bbef832a55b2d603c" category="paragraph">SnapCenter 서버에는 웹 서버, 중앙 집중식 HTML5 기반 사용자 인터페이스, PowerShell cmdlet, REST API 및 SnapCenter 저장소가 포함됩니다.</block>
@@ -248,7 +246,6 @@
   <block id="5d5cde1005f814f00d44032094a9a04f" category="paragraph">HDBSQL 클라이언트 호스트입니다</block>
   <block id="4abb41aae1dfe9c81afb3c3672df559c" category="paragraph">Linux 또는 Windows</block>
   <block id="98c5825b9b497a5e2a61777325ed802f" category="paragraph">맞춤형 플러그인</block>
-  <block id="824fb725cd78913cf73d5b8ff0ebe97c" category="paragraph"><block ref="824fb725cd78913cf73d5b8ff0ebe97c" category="inline-link-rx"></block></block>
   <block id="fde05c42841c2ef404a5ed9e7babdf62" category="paragraph">파일 시스템 백업의 경우 Windows용 플러그인</block>
   <block id="0c6a45824d8aa208ef88a943b710cb80" category="paragraph">사용자 지정 애플리케이션 호스트입니다</block>
   <block id="a364132418180f0b14b5eb7db8b87808" category="admonition">VMware vSphere용 SnapCenter 플러그인은 가상 머신(VM), 데이터 저장소 및 가상 머신 디스크(VMDK)에 대해 충돌 시에도 정합성이 보장되고 VM 정합성이 보장되는 백업 및 복원 작업을 지원하며, SnapCenter 애플리케이션별 플러그인을 지원하여 가상화된 데이터베이스 및 파일 시스템에 대한 애플리케이션 정합성이 보장되는 백업 및 복구 작업을 보호합니다.</block>
@@ -283,7 +280,6 @@
   <block id="7362a758a4c65bbbb4dc5e948b5a5896" category="list-text">사용자 지정 플러그인을 지원하여 다른 SnapCenter 플러그인에서 지원하지 않는 애플리케이션 또는 데이터베이스를 관리할 수 있습니다. SnapCenter 설치의 일부로 사용자 지정 플러그인이 제공되지 않습니다.</block>
   <block id="7f8b22ee024d485fad8d1c95beda80f7" category="list-text">다른 볼륨에 백업 세트의 미러 복제본을 생성하고 D2D 백업 복제를 수행할 수 있습니다.</block>
   <block id="0bdb27719827039d79994d2a17575b2e" category="list-text">Windows 환경과 Linux 환경을 모두 지원합니다. Windows 환경에서 사용자 지정 플러그인을 통한 사용자 지정 애플리케이션은 필요에 따라 Microsoft Windows용 SnapCenter 플러그인을 사용하여 파일 시스템의 일관된 백업을 수행할 수 있습니다.</block>
-  <block id="bef4d00fa5327b323d516fbe5c1bce99" category="paragraph">SnapCenter 소프트웨어용 MySQL, DB2 및 MongoDB 맞춤형 플러그인 샘플은 에서 다운로드할 수 있습니다<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>.</block>
   <block id="dbe26f725743679de01e440c2e7697ad" category="admonition">MySQL, DB2 및 MongoDB 맞춤형 플러그인은 NetApp 커뮤니티를 통해서만 지원됩니다.</block>
   <block id="a84dab656bf020b14be7a5c3596b4288" category="paragraph">NetApp은 맞춤형 플러그인을 생성 및 사용할 수 있는 기능을 지원하지만 생성하는 맞춤형 플러그인은 NetApp에서 지원하지 않습니다.</block>
   <block id="07af457ed5409f58b0d5ca2b41b5ec39" category="inline-link-macro">응용 프로그램용 플러그인을 개발합니다</block>
@@ -7460,7 +7456,6 @@
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">SQL Server에 대한 sysadmin 권한이 있는 사용자가 있어야 합니다.</block>
   <block id="d165009fc919b7c43f63036983c47ae0" category="paragraph">Microsoft SQL Server용 SnapCenter 플러그인은 Microsoft VDI 프레임워크를 사용하므로 sysadmin 액세스가 필요합니다.</block>
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Microsoft 지원 문서 2926557: SQL Server VDI 백업 및 복원 작업에는 sysadmin 권한이 필요합니다</block>
-  <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">SnapManager for Microsoft SQL Server가 설치된 경우 서비스 및 일정을 중지하거나 사용하지 않아야 합니다.</block>
   <block id="1931c747684bb6010ac638ae2be606b3" category="paragraph">백업 또는 클론 작업을 SnapCenter로 가져오려는 경우 SnapManager for Microsoft SQL Server를 제거하지 마십시오.</block>
   <block id="024ecfe0da835b1f362b5e64ec1408ab" category="list-text">호스트는 서버에서 FQDN(정규화된 도메인 이름)으로 확인할 수 있어야 합니다.</block>
@@ -7807,4 +7802,6 @@ NetApp ® Single Mailbox Recovery는 2023년 5월 12일 EOA(End of Availability)
   <block id="66bdd10c104f52b4f8519b652bc8e084" category="sidebar">NetApp 기술 자료 - SnapCenter</block>
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">자세한 내용은 비디오를 참조하십시오<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>.</block>
+  <block id="34d41de6bbbd59c588068d1c2b2e073d" category="paragraph">VMware vSphere용 SnapCenter 플러그인에 대한 CA 인증서를 배포할 수도 있습니다. 자세한 내용은 다음을 참조하세요. <block ref="bdfc8d677279c2d2dc7a5041c41cc2d9" category="inline-link-rx"></block> .</block>
+  <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
 </blocks>
